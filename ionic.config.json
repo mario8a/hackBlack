@@ -1,0 +1,7 @@
+{
+  "name": "BabySafe",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
