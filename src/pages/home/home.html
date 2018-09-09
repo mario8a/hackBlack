@@ -17,7 +17,7 @@
 
   <ion-card>
 
-    <ion-card-content>
+    <ion-card-content >
       <h3>Temperatura: </h3>
       <h3>Ritmo cardiaco: </h3>
     </ion-card-content>
@@ -29,5 +29,13 @@
 			>
 		Emergencia
 	</button>
+
+<ion-content padding>
+	<ion-list>
+		<ion-item class="text" *ngFor="let item of items | async">
+			{{item | json}}
+		</ion-item>
+	</ion-list>
+</ion-content>
 
 </ion-content>
